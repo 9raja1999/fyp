@@ -1,0 +1,20 @@
+.authLayout {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  flex-wrap: wrap;
+
+  .imageHolder {
+    position: relative;
+    width: 60%;
+    img.authImage {
+      object-fit: cover;
+      background-position: 100% 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  .contentHolder {
+    width: 40%;
+    padding: 10%;
+  }
+}

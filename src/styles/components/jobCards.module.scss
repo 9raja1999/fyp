@@ -1,0 +1,28 @@
+.jobList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px 15px;
+
+  .jobCard {
+    max-width: 250px;
+    min-height: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+
+    .imageHolder {
+      width: 100%;
+      height: 150px;
+      position: relative;
+      margin-bottom: 10px;
+      img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+      }
+    }
+  }
+}

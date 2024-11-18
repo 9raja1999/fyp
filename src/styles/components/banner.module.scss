@@ -1,0 +1,13 @@
+.bannerImage {
+  width: 100%;
+  position: relative;
+  height: 50vh;
+  margin-bottom: 10px;
+  background-color: gray;
+  margin-top: 100px;
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+  }
+}
